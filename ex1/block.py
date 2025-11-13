@@ -5,9 +5,9 @@ from typing import List
 
 class Block:
     # implement __init__ as you see fit.
-    def __init__(self, prev_block_hash: BlockHash, transactions: List[Transaction]) -> None:
-        self.prev_block_hash: BlockHash = prev_block_hash
+    def __init__(self, transactions: List[Transaction], prev_block_hash: BlockHash) -> None:
         self.transactions: List[Transaction] = transactions
+        self.prev_block_hash: BlockHash = prev_block_hash
         self.block_hash: BlockHash = self.get_block_hash()
 
 

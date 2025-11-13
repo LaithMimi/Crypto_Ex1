@@ -1,7 +1,7 @@
 from .utils import *
 from .transaction import Transaction
 from .bank import Bank
-from typing import Optional
+from typing import Optional, Dict, Set
 
 
 class Wallet:

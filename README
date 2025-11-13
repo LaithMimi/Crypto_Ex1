@@ -1,2 +1,6 @@
 Laith Mimi - 213923931
 
+Exercise 1: Simple cryptocurrency model implementation.
+Includes minimal blockchain with blocks, transactions, a bank to manage mempool/UTXO, and wallets for signing/verifying transfers.
+Tested with pytest; import surface is via `ex1` package only.
+
