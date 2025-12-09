@@ -15,33 +15,35 @@ TxID = NewType("TxID", bytes)  # this will be a hash of a transaction
 # these are the bytes written as the prev_block_hash of the 1st block.
 # (when a new wallet is created, it is updated up to this point)
 GENESIS_BLOCK_PREV = BlockHash(b"Genesis")
+# The maximal size of a block. Larger blocks are illegal. Do not change this value.
+BLOCK_SIZE = 10
 
 
 def sign(message: bytes, private_key: PrivateKey) -> Signature:
     """Signs the given message using the given private key"""
     pk = Ed25519PrivateKey.from_private_bytes(
-        private_key) #convert the private key to an Ed25519PrivateKey object
-    return Signature(pk.sign(message)) #sign the message using the private key
+        private_key)
+    return Signature(pk.sign(message))
 
 
 def verify(message: bytes, sig: Signature, pub_key: PublicKey) -> bool:
     """Verifies a signature for a given message using a public key. 
     Returns True is the signature matches, otherwise False"""
     pub_k = Ed25519PublicKey.from_public_bytes(
-        pub_key) #convert the public key to an Ed25519PublicKey object
+        pub_key)
     try:
-        pub_k.verify(sig, message) #verify the signature
+        pub_k.verify(sig, message)
         return True
     except:
-        return False #if the signature is not valid, return False
+        return False
 
 
-def gen_keys() -> Tuple[PrivateKey, PublicKey]: #generate a new private key and a corresponding public key
+def gen_keys() -> Tuple[PrivateKey, PublicKey]:
     """generates a private key and a corresponding public key. 
     The keys are returned in byte format to allow them to be serialized easily."""
-    private_key = Ed25519PrivateKey.generate() #generate a new private key
-    priv_key_bytes = private_key.private_bytes( #convert the private key to bytes
-        Encoding.Raw, PrivateFormat.Raw, encryption_algorithm=NoEncryption()) #convert the private key to bytes
+    private_key = Ed25519PrivateKey.generate()
+    priv_key_bytes = private_key.private_bytes(
+        Encoding.Raw, PrivateFormat.Raw, encryption_algorithm=NoEncryption())
     pub_key_bytes = private_key.public_key().public_bytes(
-        Encoding.Raw, PublicFormat.Raw) #convert the public key to bytes
-    return PrivateKey(priv_key_bytes), PublicKey(pub_key_bytes) #return the private and public keys
+        Encoding.Raw, PublicFormat.Raw)
+    return PrivateKey(priv_key_bytes), PublicKey(pub_key_bytes)

@@ -1,35 +1,38 @@
 import pytest
-from ex1 import Transaction, Wallet, Bank
+from unittest.mock import Mock
+from typing import Callable, List
+from ex2 import Node, Block, BlockHash
 
 
 @pytest.fixture
-def bank() -> Bank:
-    return Bank()
+def alice() -> Node:
+    return Node()
 
 
 @pytest.fixture
-def bank2() -> Bank:
-    return Bank()
+def bob() -> Node:
+    return Node()
 
 
 @pytest.fixture
-def alice() -> Wallet:
-    return Wallet()
+def charlie() -> Node:
+    return Node()
 
 
 @pytest.fixture
-def alice_coin(bank: Bank, alice: Wallet) -> Transaction:
-    bank.create_money(alice.get_address())
-    bank.end_day()
-    alice.update(bank)
-    return bank.get_utxo()[0]
+def evil_node_maker() -> Callable[[List[Block]], Mock]:
+    def factory(chain: List[Block]) -> Mock:
+        evil_node = Mock()
+        block_dict = {block.get_block_hash(): block for block in chain}
+        evil_node.get_latest_hash.return_value = chain[-1].get_block_hash()
 
+        def my_get_block(block_hash: BlockHash) -> Block:
+            if block_hash in block_dict:
+                return block_dict[block_hash]
+            raise ValueError
 
-@pytest.fixture
-def bob() -> Wallet:
-    return Wallet()
+        evil_node.get_block.side_effect = my_get_block
 
+        return evil_node
 
-@pytest.fixture
-def charlie() -> Wallet:
-    return Wallet()
+    return factory

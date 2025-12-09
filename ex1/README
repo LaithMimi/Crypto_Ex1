@@ -1,0 +1,20 @@
+Students: Nagham Mhesen, Laith Mimi
+IDs: 213920853, 213923931
+
+### Exercise overview
+This exercise builds a stripped-down cryptocurrency network. The intent is to show the full life cycle of a coin—key generation, transaction creation, block assembly, and ledger reconciliation—without the distractions of networking or consensus. Everything sits inside the `ex1` package so unit tests can import modules directly.
+
+### Design choices and rationale
+- `__init__.py` re-exports the public API. Tests can stick to `from ex1 import Bank, Wallet, Transaction` without pulling in side effects or private helpers.
+- `utils.py` centralizes cryptographic helpers. By wrapping the signing and verification primitives, the rest of the code stays readable and we can swap implementations without touching the higher layers.
+- `wallet.py` stores each wallet’s key pair plus its view of the unspent transaction outputs (UTXO). Using dictionaries and sets gives constant-time lookups when freezing or spending coins, which is essential when wallets poll the bank frequently.
+- `transaction.py` keeps transactions lightweight: an input pointer, an output public key, and a signature. Validation helpers ensure the signature matches the serialized payload, mirroring how real-world systems guard against tampering.
+- `block.py` bundles ordered transactions, tracks the previous block hash, and exposes a deterministic representation for hashing. This mirrors a basic blockchain structure so we can check continuity when committing new blocks.
+- `bank.py` is the coordinator. It registers wallets, verifies incoming transactions (signature, double-spend checks, nonce progression), and appends validated transactions into blocks. The bank also serves historical blocks so wallets can resync without scanning the entire ledger each time.
+
+The result is a compact but self-contained sandbox for experimenting with cryptocurrency mechanics while keeping the code paths straightforward enough for testing.
+
+### Extra test coverage
+- Verified the bank rejects forged signatures and prevents clients from minting new coins by submitting `input=None` transactions.
+- Ensured a coin can’t be reused once its transaction has been mined into a block, and that the mempool is cleared correctly.
+- Exercised `end_day` edge cases, including a zero-transaction block, to confirm block hashing works even when no transfers settle.

@@ -10,7 +10,7 @@ class Wallet:
         self._private_key: PrivateKey
         self._public_key: PublicKey
         self._private_key, self._public_key = gen_keys() #generate a new private key and a corresponding public key
-        self._utxo: Dict[TxID, Transaction] = {} #dict is fast O(1) lookup time for unspent transactions
+        self._utxo: Dict[TxID, Transaction] = {} #dict is fast O(1) lookup time for unspent transactions,utxo is the unspent transaction output
         self._frozen: Set[TxID] = set() #set is fast O(1) lookup time for frozen transactions
         self._last_seen_block_hash = GENESIS_BLOCK_PREV 
 
