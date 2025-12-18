@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script type="module" src="rps.js"></script>
+</head>
+
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <div class=container>
+        <div class="column">
+            <div class="row">
+                <div class="fixed-size">Contract ABI file:</div>
+                <input type="file" id="abiInput" accept=".abi,.json">
+            </div>
+            <div class="row">
+                <div class="fixed-size">Contract bin file:</div>
+                <input type="file" id="fileInput" accept=".bin">
+            </div>
+            <div class="row">
+                <button class="fixed-size" id="deployButton">Deploy Contract</button>
+            </div>
+            <div class="row">
+                <div class="fixed-size" for="contract-address">RPS address:</div>
+                <input class="fixed-size-wide" type="text" id="contract-address" placeholder="Address">
+            </div>
+            <hr>
+            <div class="row">
+                <div class="fixed-size"></div>
+                <div class="fixed-size">Eth Balance</div>
+                <div class="fixed-size">RPS Balance</div>
+            </div>
+            <div class="row">
+                <div class="fixed-size">Alice</div>
+                <div class="fixed-size" type="text" id="Alice-eth-balance"></div>
+                <div class="fixed-size" type="text" id="Alice-rps-balance"></div>
+            </div>
+            <div class="row">
+                <div class="fixed-size">Bob</div>
+                <div class="fixed-size" type="text" id="Bob-eth-balance"></div>
+                <div class="fixed-size" type="text" id="Bob-rps-balance"></div>
+            </div>
+            <div class="row">
+                <div class="fixed-size">Charlie</div>
+                <div class="fixed-size" type="text" id="Charlie-eth-balance"></div>
+                <div class="fixed-size" type="text" id="Charlie-rps-balance"></div>
+            </div>
+            <div class="row">
+                <div class="fixed-size">RPS Contract</div>
+                <div class="fixed-size" type="text" id="RPS-eth-balance"></div>
+            </div>
+
+            <hr>
+            <div class=" row">
+                <div class="fixed-size">Player:</div>
+                <select class="fixed-size" name="players" id="players">
+                    <option value="Alice">Alice</option>
+                    <option value="Bob">Bob</option>
+                    <option value="Charlie">Charlie</option>
+                </select>
+            </div>
+            <div class="row">
+                <button class="fixed-size" id="deposit-button">Deposit</button>
+                <input class="fixed-size" type="number" id="deposit-amount" placeholder="Amount">
+            </div>
+            <div class="row">
+                <button class="fixed-size" id="withdraw-button">Withdraw</button>
+                <input class="fixed-size" type="number" id="withdraw-amount" placeholder="Amount">
+            </div>
+            <hr>
+            <div class="row">
+                <div class="equal-size">Game Actions</div>
+            </div>
+            <div class="row">
+                <div class="fixed-size">Game ID:</div>
+                <input class="fixed-size" type="number" id="game-id" placeholder="Game ID">
+                <div class="fixed-size" id="game-state"></div>
+            </div>
+            <div class="row">
+                <div class="fixed-size">Move, Key:</div>
+                <select class="fixed-size" name="calc-move" id="calc-move">
+                    <option value="1">Rock</option>
+                    <option value="2">Paper</option>
+                    <option value="3">Scissors</option>
+                    <option value="4">Magic Wand</option>
+                </select>
+                <input class="fixed-size" type="text" id="calc-key" placeholder="Key">
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
+                <button class="fixed-size" id="make-move-button">Make Move</button>
+                <input class="fixed-size" type="number" id="move-amount" placeholder="amount">
+                <div class="fixed-size-wide" id="calc-commit">Commitment</div>
+            </div>
+            <div class="row">
+                <button class="fixed-size" id="reveal-button">Reveal</button>
+                <select class="fixed-size" name="reveal-move" id="reveal-move">
+                    <option value="1">Rock</option>
+                    <option value="2">Paper</option>
+                    <option value="3">Scissors</option>
+                    <option value="4">Magic Wand</option>
+                </select>
+                <input class="fixed-size" type="text" id="reveal-key" placeholder="Key">
+            </div>
+            <div class="row">
+                <button class="fixed-size" id="mine-button">Mine Block</button>
+                <button class="fixed-size" id="cancel-button">Cancel</button>
+                <button class="fixed-size" id="appeal-button">Reveal Phase Ended</button>
+            </div>
+
+        </div>
+        <div class="column">
+            <div class="row">
+                <div class="log-area" id="message-log"></div>
+            </div>
+        </div>
+</body>
