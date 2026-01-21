@@ -1,0 +1,141 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-8.3.5, pluggy-1.5.0
+rootdir: C:\Users\Lenovo\Documents\Programming projects\Crypto\ex4\publish
+plugins: anyio-4.9.0, cov-6.0.0
+collected 7 items
+
+tests\test_basic_scenarios.py EEEEEEE                                    [100%]
+
+=================================== ERRORS ====================================
+_______________ ERROR at setup of test_open_and_immediate_close _______________
+
+start_hardhat = None
+
+    @ pytest.fixture(scope="session")
+    def eth_tools(start_hardhat: None) -> EthTools:
+        """Instance to interact with the blockchain during tests"""
+        logger.info("Creating a Web3 instance")
+        w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
+>       assert w3.is_connected(), "Web3 is not connected to the Hardhat node."
+E       AssertionError: Web3 is not connected to the Hardhat node.
+E       assert False
+E        +  where False = is_connected()
+E        +    where is_connected = <web3.main.Web3 object at 0x00000158184EC6E0>.is_connected
+
+tests\conftest.py:94: AssertionError
+----------------------------- Captured log setup ------------------------------
+INFO     action_log:conftest.py:21 Starting Hardhat node
+INFO     action_log:conftest.py:33 Running the command npx -y hardhat node
+INFO     action_log:conftest.py:52 Waiting for the Hardhat node to start
+INFO     action_log:conftest.py:92 Creating a Web3 instance
+_____________ ERROR at setup of test_nice_open_transfer_and_close _____________
+
+start_hardhat = None
+
+    @ pytest.fixture(scope="session")
+    def eth_tools(start_hardhat: None) -> EthTools:
+        """Instance to interact with the blockchain during tests"""
+        logger.info("Creating a Web3 instance")
+        w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
+>       assert w3.is_connected(), "Web3 is not connected to the Hardhat node."
+E       AssertionError: Web3 is not connected to the Hardhat node.
+E       assert False
+E        +  where False = is_connected()
+E        +    where is_connected = <web3.main.Web3 object at 0x00000158184EC6E0>.is_connected
+
+tests\conftest.py:94: AssertionError
+_________________ ERROR at setup of test_alice_tries_to_cheat _________________
+
+start_hardhat = None
+
+    @ pytest.fixture(scope="session")
+    def eth_tools(start_hardhat: None) -> EthTools:
+        """Instance to interact with the blockchain during tests"""
+        logger.info("Creating a Web3 instance")
+        w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
+>       assert w3.is_connected(), "Web3 is not connected to the Hardhat node."
+E       AssertionError: Web3 is not connected to the Hardhat node.
+E       assert False
+E        +  where False = is_connected()
+E        +    where is_connected = <web3.main.Web3 object at 0x00000158184EC6E0>.is_connected
+
+tests\conftest.py:94: AssertionError
+______________ ERROR at setup of test_channel_list_encapsulation ______________
+
+start_hardhat = None
+
+    @ pytest.fixture(scope="session")
+    def eth_tools(start_hardhat: None) -> EthTools:
+        """Instance to interact with the blockchain during tests"""
+        logger.info("Creating a Web3 instance")
+        w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
+>       assert w3.is_connected(), "Web3 is not connected to the Hardhat node."
+E       AssertionError: Web3 is not connected to the Hardhat node.
+E       assert False
+E        +  where False = is_connected()
+E        +    where is_connected = <web3.main.Web3 object at 0x00000158184EC6E0>.is_connected
+
+tests\conftest.py:94: AssertionError
+___ ERROR at setup of test_node_rejects_receive_message_of_unknown_channel ____
+
+start_hardhat = None
+
+    @ pytest.fixture(scope="session")
+    def eth_tools(start_hardhat: None) -> EthTools:
+        """Instance to interact with the blockchain during tests"""
+        logger.info("Creating a Web3 instance")
+        w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
+>       assert w3.is_connected(), "Web3 is not connected to the Hardhat node."
+E       AssertionError: Web3 is not connected to the Hardhat node.
+E       assert False
+E        +  where False = is_connected()
+E        +    where is_connected = <web3.main.Web3 object at 0x00000158184EC6E0>.is_connected
+
+tests\conftest.py:94: AssertionError
+_________________ ERROR at setup of test_close_by_alice_twice _________________
+
+start_hardhat = None
+
+    @ pytest.fixture(scope="session")
+    def eth_tools(start_hardhat: None) -> EthTools:
+        """Instance to interact with the blockchain during tests"""
+        logger.info("Creating a Web3 instance")
+        w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
+>       assert w3.is_connected(), "Web3 is not connected to the Hardhat node."
+E       AssertionError: Web3 is not connected to the Hardhat node.
+E       assert False
+E        +  where False = is_connected()
+E        +    where is_connected = <web3.main.Web3 object at 0x00000158184EC6E0>.is_connected
+
+tests\conftest.py:94: AssertionError
+_______________ ERROR at setup of test_cant_close_channel_twice _______________
+
+start_hardhat = None
+
+    @ pytest.fixture(scope="session")
+    def eth_tools(start_hardhat: None) -> EthTools:
+        """Instance to interact with the blockchain during tests"""
+        logger.info("Creating a Web3 instance")
+        w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
+>       assert w3.is_connected(), "Web3 is not connected to the Hardhat node."
+E       AssertionError: Web3 is not connected to the Hardhat node.
+E       assert False
+E        +  where False = is_connected()
+E        +    where is_connected = <web3.main.Web3 object at 0x00000158184EC6E0>.is_connected
+
+tests\conftest.py:94: AssertionError
+============================== warnings summary ===============================
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\legacy\__init__.py:6
+  C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\legacy\__init__.py:6: DeprecationWarning: websockets.legacy is deprecated; see https://websockets.readthedocs.io/en/stable/howto/upgrade.html for upgrade instructions
+    warnings.warn(  # deprecated in 14.0 - 2024-11-09
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR tests/test_basic_scenarios.py::test_open_and_immediate_close - Assertio...
+ERROR tests/test_basic_scenarios.py::test_nice_open_transfer_and_close - Asse...
+ERROR tests/test_basic_scenarios.py::test_alice_tries_to_cheat - AssertionErr...
+ERROR tests/test_basic_scenarios.py::test_channel_list_encapsulation - Assert...
+ERROR tests/test_basic_scenarios.py::test_node_rejects_receive_message_of_unknown_channel
+ERROR tests/test_basic_scenarios.py::test_close_by_alice_twice - AssertionErr...
+ERROR tests/test_basic_scenarios.py::test_cant_close_channel_twice - Assertio...
+======================== 1 warning, 7 errors in 12.98s ========================

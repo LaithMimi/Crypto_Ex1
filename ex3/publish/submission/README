@@ -1,0 +1,7 @@
+Name: Laith Mimi
+ID: 213923931
+
+Description:
+This submission contains the solution for Exercise 3.
+- Part 1: WalletAttack.sol implements a reentrancy attack against VulnerableWallet.sol.
+- Part 2: RPS.sol implements the Rock-Paper-Scissors game logic with commitments.

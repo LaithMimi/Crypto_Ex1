@@ -1,0 +1,1109 @@
+
+WARNING: You are using Node.js 20.19.1 which is not supported by Hardhat.
+Please upgrade to 22.10.0 or a later LTS version (even major version number)
+
+Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
+
+Accounts
+========
+
+WARNING: Funds sent on live network to accounts with publicly known private keys WILL BE LOST.
+
+Account #0:  0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 (10000 ETH)
+Private Key: 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+Account #1:  0x70997970c51812dc3a010c7d01b50e0d17dc79c8 (10000 ETH)
+Private Key: 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+
+Account #2:  0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc (10000 ETH)
+Private Key: 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a
+
+Account #3:  0x90f79bf6eb2c4f870365e785982e1f101e93b906 (10000 ETH)
+Private Key: 0x7c852118294e51e653712a81e05800f419141751be58f605c371e15141b007a6
+
+Account #4:  0x15d34aaf54267db7d7c367839aaf71a00a2c6a65 (10000 ETH)
+Private Key: 0x47e179ec197488593b187f80a00eb0da91f1b9d0b13f8733639f19c30a34926a
+
+Account #5:  0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc (10000 ETH)
+Private Key: 0x8b3a350cf5c34c9194ca85829a2df0ec3153be0318b5e2d3348e872092edffba
+
+Account #6:  0x976ea74026e726554db657fa54763abd0c3a0aa9 (10000 ETH)
+Private Key: 0x92db14e403b83dfe3df233f83dfa3a0d7096f21ca9b0d6d6b8d88b2b4ec1564e
+
+Account #7:  0x14dc79964da2c08b23698b3d3cc7ca32193d9955 (10000 ETH)
+Private Key: 0x4bbbf85ce3377467afe5d46f804f221813b2bb87f24d81f60f1fcdbf7cbf4356
+
+Account #8:  0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f (10000 ETH)
+Private Key: 0xdbda1821b80551c9d65939329250298aa3472ba22feea921c0cf5d620ea67b97
+
+Account #9:  0xa0ee7a142d267c1f36714e4a8f75612f20a79720 (10000 ETH)
+Private Key: 0x2a871d0798f97d79848a013d4936a73bf4cc922c825d33c1cf7073dff6d409c6
+
+Account #10: 0xbcd4042de499d14e55001ccbb24a551f3b954096 (10000 ETH)
+Private Key: 0xf214f2b2cd398c806f84e317254e0f0b801d0643303237d97a22a48e01628897
+
+Account #11: 0x71be63f3384f5fb98995898a86b02fb2426c5788 (10000 ETH)
+Private Key: 0x701b615bbdfb9de65240bc28bd21bbc0d996645a3dd57e7b12bc2bdf6f192c82
+
+Account #12: 0xfabb0ac9d68b0b445fb7357272ff202c5651694a (10000 ETH)
+Private Key: 0xa267530f49f8280200edf313ee7af6b827f2a8bce2897751d06a843f644967b1
+
+Account #13: 0x1cbd3b2770909d4e10f157cabc84c7264073c9ec (10000 ETH)
+Private Key: 0x47c99abed3324a2707c28affff1267e45918ec8c3f20b8aa892e8b065d2942dd
+
+Account #14: 0xdf3e18d64bc6a983f673ab319ccae4f1a57c7097 (10000 ETH)
+Private Key: 0xc526ee95bf44d8fc405a158bb884d9d1238d99f0612e9f33d006bb0789009aaa
+
+Account #15: 0xcd3b766ccdd6ae721141f452c550ca635964ce71 (10000 ETH)
+Private Key: 0x8166f546bab6da521a8369cab06c5d2b9e46670292d85c875ee9ec20e84ffb61
+
+Account #16: 0x2546bcd3c84621e976d8185a91a922ae77ecec30 (10000 ETH)
+Private Key: 0xea6c44ac03bff858b476bba40716402b03e41b8e97e276d1baec7c37d42484a0
+
+Account #17: 0xbda5747bfd65f08deb54cb465eb87d40e51b197e (10000 ETH)
+Private Key: 0x689af8efa8c651a91ad287602527f3af2fe9f6501a7ac4b061667b5a93e037fd
+
+Account #18: 0xdd2fd4581271e230360230f9337d5c0430bf44c0 (10000 ETH)
+Private Key: 0xde9be858da4a475276426320d5e9262ecfc3ba460bfac56360bfa6c4c28b4ee0
+
+Account #19: 0x8626f6940e2eb28930efb4cef49b2d1f2c9c1199 (10000 ETH)
+Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
+
+WARNING: Funds sent on live network to accounts with publicly known private keys WILL BE LOST.
+
+[32mweb3_clientVersion[0m
+[32mhardhat_setNextBlockBaseFeePerGas[0m
+[32meth_blockNumber[0m
+[32mevm_snapshot[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getBalance (3)[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract deployment: <UnrecognizedContract>
+  Contract address:    0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+  Transaction:         0xd75b2dac147b2b041668bfa642e1642737e20094fa87443139139b867e358426
+  From:                0x94fa6812a329e999a16350ef0b4671bdbb88b6f4
+  Value:               1. ETH
+  Gas used:            1549043 of 1549043
+  Block #1:            0x364a0d0abf7189b866d0c87fe50df11d05bdbe95a5e1781835fa49474cbb7bf2
+
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_getBlockByNumber[0m
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0x68d27133a928eb058c96dc2acbff91bd40d25095436114a13b2996b790f8b00b
+  From:                0x94fa6812a329e999a16350ef0b4671bdbb88b6f4
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+  Value:               0 ETH
+  Gas used:            96444 of 96444
+  Block #2:            0x8b8341224edbe6924a933ebd2d97c1a68c54d33aaa659f8ef761062c4cd8a6d2
+
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[32meth_getBlockByNumber[0m
+[32mhardhat_mine[0m
+  Mined empty block range #3 to #9
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0x136e1e12e3e4ca7dc8669b933bb3e4ccc6d31de81cbadfe29d5aa81ef785990f
+  From:                0x94fa6812a329e999a16350ef0b4671bdbb88b6f4
+  To:                  0x85b9d351a0a91ef48232d70bae8ff8a99fc29dc2
+  Value:               0 ETH
+  Gas used:            62609 of 65055
+  Block #10:           0x2478958f73f01e5f05cb456897422952c1c9305e75b9c3dd038e6c58d9474e5f
+
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[32meth_getBlockByNumber[0m
+[32meth_getBlockByNumber (2)[0m
+[32meth_getBlockByNumber (3)[0m
+[32meth_getBlockByNumber (4)[0m
+[32meth_getBlockByNumber (5)[0m
+[32meth_getBlockByNumber (6)[0m
+[32meth_getBlockByNumber (7)[0m
+[32meth_getBlockByNumber (8)[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getBalance (3)[0m
+[32mevm_revert[0m
+[32mevm_snapshot[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getBalance (3)[0m
+[32meth_getBalance (4)[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract deployment: <UnrecognizedContract>
+  Contract address:    0x3498212fc11a4d1a937626626a46f942e97c3f53
+  Transaction:         0xedbfdf95e20134c121e0addba7e1941cc941cc702bfd50320e4b7178eb0c4054
+  From:                0x606e72229429507090ecb15763af5aa220a24594
+  Value:               10. ETH
+  Gas used:            1549043 of 1549043
+  Block #1:            0x645136117f1c86acb94d23e4b00f16ba76d10bf04c8a8bad3f57483dd721dfd7
+
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0x21009939ed41183975da80824345e1368a4970a82e795ef105cc4f2be9f07ca2
+  From:                0xe89ef4c933f59d1b564409a0ac7c86ea8d5583de
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+  Value:               0 ETH
+  Gas used:            144998 of 144998
+  Block #2:            0x397af1f0a8c55fea3a698fce9acacf7ea2207889e3e467f89da96abf4d110a7b
+
+[32meth_getTransactionReceipt[0m
+[32mhardhat_mine[0m
+  Mined empty block range #3 to #9
+
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0x6693ca5f226b9c9f060f2270de1b4dedd7944812d77ec42af7a61d9b65ac59d9
+  From:                0xe89ef4c933f59d1b564409a0ac7c86ea8d5583de
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+  Value:               0 ETH
+  Gas used:            64757 of 67033
+  Block #10:           0x76976f918a3f41beb36cc6b1b8e3b49fcdbaddb24b3e7ed784a5e0b0299b4b2d
+
+[32meth_getTransactionReceipt[0m
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0x0f7383c8fdf9ee2ed6feeb714f584b8cc4873169a09823f6d35a92f376a27b7e
+  From:                0x606e72229429507090ecb15763af5aa220a24594
+  To:                  0x3498212fc11a4d1a937626626a46f942e97c3f53
+  Value:               0 ETH
+  Gas used:            62609 of 65055
+  Block #11:           0xcace5ab18585b2a3aafeb5f0d491a77ccfaade00bee6f594eaa1655698cea598
+
+[32meth_getTransactionReceipt[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getBalance (3)[0m
+[32mevm_revert[0m
+[32mevm_snapshot[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getBalance (3)[0m
+[32meth_getBalance (4)[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract deployment: <UnrecognizedContract>
+  Contract address:    0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+  Transaction:         0xfcc6d310af6a5d86e002c0d38207d06d9ef7e3a8de76af35d1bf81ed3b10cf47
+  From:                0x605facc2250d3bf39600686b34fd188348e205d7
+  Value:               10. ETH
+  Gas used:            1549043 of 1549043
+  Block #1:            0xfee35f7e72500e70de56d7964a19ef06703e700cf118aa52211f2d39fb3e8dcc
+
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0xbdbfb7460326664c1d27729b7a91bf5ddacff57cb7d14dba01995800abd06a84
+  From:                0x605facc2250d3bf39600686b34fd188348e205d7
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+  Value:               0 ETH
+  Gas used:            96444 of 96444
+  Block #2:            0x249e434e3cbdc2e6c4ce164de95ffb53bd2d2410cddfe96a9c0bb3ec76315165
+
+[32meth_getTransactionReceipt[0m
+[32mhardhat_mine[0m
+  Mined empty block #3 with base fee 0
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0x94a59ad9a8edf9a20e2185593507807292b8570a5e8abefb6ca3a33753764c2a
+  From:                0xc8db7d71b49c78e0b09fbbc52c6d90f141e6fdea
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+  Value:               0 ETH
+  Gas used:            89971 of 89971
+  Block #4:            0xe28a5a2c293c99f104096d519dd6ca9bd465446bf790c02d0fd5319b0e061cd2
+
+[32meth_getTransactionReceipt[0m
+[32mhardhat_mine[0m
+  Mined empty block range #5 to #9
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0xd39172946923be93c5018e20aacbd4e88c8c4a59e8a6206506aa4ed3b5256647
+  From:                0xc8db7d71b49c78e0b09fbbc52c6d90f141e6fdea
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+  Value:               0 ETH
+  Gas used:            64757 of 67033
+  Block #10:           0x63b8183e8b87a1a7e7bbc9b3dd94ae57a7f21e0a59a71effb73bf84d2705dd84
+
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0xe52ab9974c4919a7987a966a3c0f16910ce16e188648c01d613e51678ba48aec
+  From:                0x605facc2250d3bf39600686b34fd188348e205d7
+  To:                  0x35f9cf1125400f1db7de6b929a33ce2b452696ef
+  Value:               0 ETH
+  Gas used:            62597 of 65042
+  Block #11:           0xfebf25f88a386509041db228be03fb1f1c20aa03ae0bec1da3df8aecf951d2ef
+
+[32meth_getTransactionReceipt[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32mevm_revert[0m
+[32mevm_snapshot[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract deployment: <UnrecognizedContract>
+  Contract address:    0xdb764c346aee68989d22d660f9be404d531a58c2
+  Transaction:         0xc96efa76b48044a51ec6ebd75ee8fc1f7e39f9690188b4dd14d66c5b3ed1f6c2
+  From:                0x2cea9e173be579f9e7e3c580669f42787f3b912c
+  Value:               10. ETH
+  Gas used:            1549043 of 1549043
+  Block #1:            0xee4cf5663760122a16f2e7f1854b402c8f51bff503bad700e9b509ab40a4bcc0
+
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdb764c346aee68989d22d660f9be404d531a58c2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdb764c346aee68989d22d660f9be404d531a58c2
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdb764c346aee68989d22d660f9be404d531a58c2
+
+[32meth_chainId[0m
+[32meth_getBalance[0m
+[32mevm_revert[0m
+[32mevm_snapshot[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract deployment: <UnrecognizedContract>
+  Contract address:    0xe8bdda0f1a256de455c41d034075c12a061c6487
+  Transaction:         0x287b9968fb870074cb438f5e711ea39e4a4b8aea013cc3ed0e6faa4339689e0b
+  From:                0x6f1a79997ae679fb28d90f0166748efd83849397
+  Value:               10. ETH
+  Gas used:            1549043 of 1549043
+  Block #1:            0x38813794f34dc0a26113043962398787742481e456341ab6b97a667873b5b2ee
+
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe8bdda0f1a256de455c41d034075c12a061c6487
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe8bdda0f1a256de455c41d034075c12a061c6487
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe8bdda0f1a256de455c41d034075c12a061c6487
+
+[32meth_chainId[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32mevm_revert[0m
+[32mevm_snapshot[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract deployment: <UnrecognizedContract>
+  Contract address:    0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+  Transaction:         0xd77427e8806daa5c732584bcb73fc5761c8932aeab8d0b82ab8bc52c75f32c76
+  From:                0x5e12ac47ce763b5e7be605da8a38f803409c8053
+  Value:               10. ETH
+  Gas used:            1549043 of 1549043
+  Block #1:            0x0a98021dd999e859e92f3270b816accb0a6cb5bf716120f0073be914ae3dd3ea
+
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+
+[32meth_chainId[0m
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0x8257bd7cab6cd5998719b4295f35c8f75a864865b55e527a66833bde2681f472
+  From:                0x5e12ac47ce763b5e7be605da8a38f803409c8053
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+  Value:               0 ETH
+  Gas used:            96444 of 96444
+  Block #2:            0x23301f86f9b6e60b3addd6ac86a1cf2fe5411a41fe11929e2caad6a6757d13f6
+
+[32meth_getTransactionReceipt[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[31meth_estimateGas[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0x5e12ac47ce763b5e7be605da8a38f803409c8053
+  To:                  0x77d8887ba8a86f2e00dda13f373f531ea0c9532c
+  Value:               0 ETH
+
+  Error: reverted with reason string 'Channel already closed'
+
+[32meth_chainId[0m
+[32mevm_revert[0m
+[32mevm_snapshot[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32mhardhat_setBalance[0m
+[32meth_getBalance[0m
+[32meth_getBalance (2)[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract deployment: <UnrecognizedContract>
+  Contract address:    0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+  Transaction:         0xfaad6d075f2ae990d1c5be52537fb6e4717c500f99e7f0ffe3815d5650d0db2c
+  From:                0x12cc2154980fffda135799e56ee37a8aa1a93acc
+  Value:               10. ETH
+  Gas used:            1549043 of 1549043
+  Block #1:            0x08cbcd3753f2d28d6ace77064f601bb9106139761cc34907eecdc77bca5a02ab
+
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       <UnrecognizedContract>
+  Transaction:         0x303ecc78a822bdab1a4cbc05482b6a3cf0b8842599bc529fc4be9aa0323f37a3
+  From:                0x12cc2154980fffda135799e56ee37a8aa1a93acc
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+  Value:               0 ETH
+  Gas used:            96444 of 96444
+  Block #2:            0xc92f557a1aecbca7220e7d04727c4004dbea56bee52e167d4aed167fa4e29434
+
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe1a64552136dae7cd90f8b9bd1ac01c6807c8d2d
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32mevm_revert[0m

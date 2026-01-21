@@ -1,0 +1,23 @@
+Name_1: Laith Mimi
+ID_1: 213923931
+
+Name_2: Nagham mhesen
+ID_2: 213920853
+
+Exercise 4: Payment Channels
+
+This submission contains the implementation of a secure bidirectional payment channel.
+
+Files included:
+1. Channel.sol: Solidity smart contract implementing the payment channel logic, including:
+   - Channel establishment
+   - One-sided closing with signature verification
+   - Appeal mechanism for disputing old states
+   - Fund withdrawal after appeal period
+
+2. lightning_node.py: Python client for the Lightning Node, implementing:
+   - Off-chain state channel management
+   - Secure signing and verification of state updates (ChannelStateMessage)
+   - Interaction with the Ethereum blockchain for opening, closing, and appealing channels.
+
+The implementation adheres to the provided API and passes the test scenarios for opening, transferring funds, closing (honest and cheating attempts), and withdrawing.

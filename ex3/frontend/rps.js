@@ -278,7 +278,10 @@ async function withdrawFromContract() {
         });
         writeLogMessage(`${requester} withdrew ${withdrawAmount} Eth`)
     } catch (error) {
-        writeLogMessage(`Error withdrawing from contract.`, true);
+        // Try to extract the reason
+        const reason = error.reason || error.message || error;
+        writeLogMessage(`Error withdrawing: ${reason}`, true);
+        console.error("Full withdraw error:", error);
     }
 }
 

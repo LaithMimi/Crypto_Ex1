@@ -1,0 +1,146 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-8.3.5, pluggy-1.5.0
+rootdir: C:\Users\Lenovo\Documents\Programming projects\Crypto\ex4\publish
+plugins: anyio-4.9.0, cov-6.0.0
+collected 7 items
+
+tests\test_basic_scenarios.py EEEEEEE                                    [100%]
+
+=================================== ERRORS ====================================
+_______________ ERROR at setup of test_open_and_immediate_close _______________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def start_hardhat() -> Generator[None, None, None]:
+        """Start Hardhat network as a subprocess"""
+        logger.info("Starting Hardhat node")
+    
+        # the command to start the hardhat node. This checks first if hardhat is installed (e.g. as is on CS machines)
+        # and if not, it uses npx to run the hardhat node
+        # note that you need to use `module load hardhat/18` to have hardhat on cs machines.
+        cmd = "command -v hardhat >/dev/null 2>&1 && hardhat node || npx hardhat node"
+        logger.info(f"Running the command {cmd}")
+        process = subprocess.Popen(
+>           cmd, shell=True,  preexec_fn=os.setsid, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+E       AttributeError: module 'os' has no attribute 'setsid'. Did you mean: 'getpid'?
+
+tests\conftest.py:28: AttributeError
+----------------------------- Captured log setup ------------------------------
+INFO     action_log:conftest.py:20 Starting Hardhat node
+INFO     action_log:conftest.py:26 Running the command command -v hardhat >/dev/null 2>&1 && hardhat node || npx hardhat node
+_____________ ERROR at setup of test_nice_open_transfer_and_close _____________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def start_hardhat() -> Generator[None, None, None]:
+        """Start Hardhat network as a subprocess"""
+        logger.info("Starting Hardhat node")
+    
+        # the command to start the hardhat node. This checks first if hardhat is installed (e.g. as is on CS machines)
+        # and if not, it uses npx to run the hardhat node
+        # note that you need to use `module load hardhat/18` to have hardhat on cs machines.
+        cmd = "command -v hardhat >/dev/null 2>&1 && hardhat node || npx hardhat node"
+        logger.info(f"Running the command {cmd}")
+        process = subprocess.Popen(
+>           cmd, shell=True,  preexec_fn=os.setsid, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+E       AttributeError: module 'os' has no attribute 'setsid'. Did you mean: 'getpid'?
+
+tests\conftest.py:28: AttributeError
+_________________ ERROR at setup of test_alice_tries_to_cheat _________________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def start_hardhat() -> Generator[None, None, None]:
+        """Start Hardhat network as a subprocess"""
+        logger.info("Starting Hardhat node")
+    
+        # the command to start the hardhat node. This checks first if hardhat is installed (e.g. as is on CS machines)
+        # and if not, it uses npx to run the hardhat node
+        # note that you need to use `module load hardhat/18` to have hardhat on cs machines.
+        cmd = "command -v hardhat >/dev/null 2>&1 && hardhat node || npx hardhat node"
+        logger.info(f"Running the command {cmd}")
+        process = subprocess.Popen(
+>           cmd, shell=True,  preexec_fn=os.setsid, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+E       AttributeError: module 'os' has no attribute 'setsid'. Did you mean: 'getpid'?
+
+tests\conftest.py:28: AttributeError
+______________ ERROR at setup of test_channel_list_encapsulation ______________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def start_hardhat() -> Generator[None, None, None]:
+        """Start Hardhat network as a subprocess"""
+        logger.info("Starting Hardhat node")
+    
+        # the command to start the hardhat node. This checks first if hardhat is installed (e.g. as is on CS machines)
+        # and if not, it uses npx to run the hardhat node
+        # note that you need to use `module load hardhat/18` to have hardhat on cs machines.
+        cmd = "command -v hardhat >/dev/null 2>&1 && hardhat node || npx hardhat node"
+        logger.info(f"Running the command {cmd}")
+        process = subprocess.Popen(
+>           cmd, shell=True,  preexec_fn=os.setsid, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+E       AttributeError: module 'os' has no attribute 'setsid'. Did you mean: 'getpid'?
+
+tests\conftest.py:28: AttributeError
+___ ERROR at setup of test_node_rejects_receive_message_of_unknown_channel ____
+
+    @pytest.fixture(scope="session", autouse=True)
+    def start_hardhat() -> Generator[None, None, None]:
+        """Start Hardhat network as a subprocess"""
+        logger.info("Starting Hardhat node")
+    
+        # the command to start the hardhat node. This checks first if hardhat is installed (e.g. as is on CS machines)
+        # and if not, it uses npx to run the hardhat node
+        # note that you need to use `module load hardhat/18` to have hardhat on cs machines.
+        cmd = "command -v hardhat >/dev/null 2>&1 && hardhat node || npx hardhat node"
+        logger.info(f"Running the command {cmd}")
+        process = subprocess.Popen(
+>           cmd, shell=True,  preexec_fn=os.setsid, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+E       AttributeError: module 'os' has no attribute 'setsid'. Did you mean: 'getpid'?
+
+tests\conftest.py:28: AttributeError
+_________________ ERROR at setup of test_close_by_alice_twice _________________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def start_hardhat() -> Generator[None, None, None]:
+        """Start Hardhat network as a subprocess"""
+        logger.info("Starting Hardhat node")
+    
+        # the command to start the hardhat node. This checks first if hardhat is installed (e.g. as is on CS machines)
+        # and if not, it uses npx to run the hardhat node
+        # note that you need to use `module load hardhat/18` to have hardhat on cs machines.
+        cmd = "command -v hardhat >/dev/null 2>&1 && hardhat node || npx hardhat node"
+        logger.info(f"Running the command {cmd}")
+        process = subprocess.Popen(
+>           cmd, shell=True,  preexec_fn=os.setsid, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+E       AttributeError: module 'os' has no attribute 'setsid'. Did you mean: 'getpid'?
+
+tests\conftest.py:28: AttributeError
+_______________ ERROR at setup of test_cant_close_channel_twice _______________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def start_hardhat() -> Generator[None, None, None]:
+        """Start Hardhat network as a subprocess"""
+        logger.info("Starting Hardhat node")
+    
+        # the command to start the hardhat node. This checks first if hardhat is installed (e.g. as is on CS machines)
+        # and if not, it uses npx to run the hardhat node
+        # note that you need to use `module load hardhat/18` to have hardhat on cs machines.
+        cmd = "command -v hardhat >/dev/null 2>&1 && hardhat node || npx hardhat node"
+        logger.info(f"Running the command {cmd}")
+        process = subprocess.Popen(
+>           cmd, shell=True,  preexec_fn=os.setsid, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+E       AttributeError: module 'os' has no attribute 'setsid'. Did you mean: 'getpid'?
+
+tests\conftest.py:28: AttributeError
+============================== warnings summary ===============================
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\legacy\__init__.py:6
+  C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\legacy\__init__.py:6: DeprecationWarning: websockets.legacy is deprecated; see https://websockets.readthedocs.io/en/stable/howto/upgrade.html for upgrade instructions
+    warnings.warn(  # deprecated in 14.0 - 2024-11-09
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR tests/test_basic_scenarios.py::test_open_and_immediate_close - Attribut...
+ERROR tests/test_basic_scenarios.py::test_nice_open_transfer_and_close - Attr...
+ERROR tests/test_basic_scenarios.py::test_alice_tries_to_cheat - AttributeErr...
+ERROR tests/test_basic_scenarios.py::test_channel_list_encapsulation - Attrib...
+ERROR tests/test_basic_scenarios.py::test_node_rejects_receive_message_of_unknown_channel
+ERROR tests/test_basic_scenarios.py::test_close_by_alice_twice - AttributeErr...
+ERROR tests/test_basic_scenarios.py::test_cant_close_channel_twice - Attribut...
+======================== 1 warning, 7 errors in 0.19s =========================

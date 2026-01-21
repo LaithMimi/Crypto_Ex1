@@ -1,0 +1,15 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-8.3.5, pluggy-1.5.0
+rootdir: C:\Users\Lenovo\Documents\Programming projects\Crypto\ex4\publish
+plugins: anyio-4.9.0, cov-6.0.0
+collected 7 items
+
+tests\test_basic_scenarios.py .......                                    [100%]
+
+============================== warnings summary ===============================
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\legacy\__init__.py:6
+  C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\legacy\__init__.py:6: DeprecationWarning: websockets.legacy is deprecated; see https://websockets.readthedocs.io/en/stable/howto/upgrade.html for upgrade instructions
+    warnings.warn(  # deprecated in 14.0 - 2024-11-09
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 7 passed, 1 warning in 15.60s ========================
